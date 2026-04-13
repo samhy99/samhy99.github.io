@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samah Hussein Youssef</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  background: transparent;
+  padding: 0 1.5rem;
+  position: relative;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.30;
+  z-index: -1;
+}
+.wrapper {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 3rem 2.5rem 5rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 24px rgba(0,0,0,0.08);
+}
+.header { text-align: center; margin-bottom: 2.5rem; }
+.photo-placeholder {
+  width: 160px; height: 160px;
+  border-radius: 50%;
+  background: #f0f0f0;
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 1.25rem;
+  border: 3px solid #e8e8e8;
+  color: #aaa; font-size: 13px;
+}
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #1a1a1a;
+}
+.affiliation { font-size: 14px; color: #666; margin-bottom: 1rem; }
+.nav-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 0.5rem 1.25rem; }
+.nav-links a { font-size: 14px; color: #1a6b8a; text-decoration: none; }
+.nav-links a:hover { text-decoration: underline; }
+hr { border: none; border-top: 1px solid #e8e8e8; margin: 2rem 0; }
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+.about p { margin-bottom: 0.85rem; }
+.about a, a { color: #1a6b8a; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.pub-table { width: 100%; border-collapse: collapse; }
+.pub-table td {
+  padding: 0.6rem 0;
+  vertical-align: top;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.pub-table tr:last-child td { border-bottom: none; }
+.pub-me { font-weight: 600; }
+.pub-venue { font-style: italic; color: #555; }
+ul.clean { list-style: none; padding: 0; }
+ul.clean li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; font-size: 15px; }
+ul.clean li:last-child { border-bottom: none; }
+.year { color: #888; font-size: 13px; margin-left: 4px; }
+ul.work { list-style: disc; padding-left: 1.5rem; margin-top: 4px; }
+ul.work li { font-size: 14px; padding: 1px 0; color: #444; }
+.teaching-item { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; font-size: 15px; }
+.teaching-item:last-child { border-bottom: none; }
+.teaching-item .detail { color: #666; font-size: 14px; }
+.service-section { margin-bottom: 0.75rem; }
+.service-section strong { display: block; font-size: 15px; margin-bottom: 0.2rem; }
+.service-section span { font-size: 14px; color: #555; display: block; line-height: 1.7; }
+.award-item { display: flex; gap: 1rem; padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; font-size: 15px; }
+.award-item:last-child { border-bottom: none; }
+.award-year { color: #888; min-width: 36px; font-size: 14px; padding-top: 2px; }
+.skills-row { margin-bottom: 0.35rem; font-size: 15px; }
+.footer-links { display: flex; gap: 1.25rem; }
+.footer-links a { font-size: 14px; color: #1a6b8a; text-decoration: none; }
+.footer-links a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+  <div class="header">
+    <!-- <div class="photo-placeholder">your photo</div> -->
+     <!-- add image from  samah_pp.JPG instead of placeholder -->
+     <img src="samah_pp.JPG" alt="Samah Hussein Youssef" style="width:160px; height:160px; border-radius:50%; object-fit:cover; border:3px solid #e8e8e8; display:block; margin:0 auto 1.25rem;">
+
+    <h1>Samah Hussein Youssef</h1>
+    <p class="affiliation">PhD Candidate · IC School, EPFL · BC116, Station 14, CH-1015 Lausanne</p>
+    <div class="nav-links">
+      <a href="mailto:samah.husseinyoussef@epfl.ch">Email</a>
+      <a href="https://scholar.google.com/citations?user=MS1P6hcAAAAJ&hl=en&authuser=1" target="_blank">Google Scholar</a>
+      <a href="https://www.linkedin.com/in/hysamah/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+
+  <hr>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a PhD candidate in Computer Science at the
+      <a href="https://www.epfl.ch/schools/ic/">IC School, EPFL</a>, where I am a member of the
+      <a href="https://www.epfl.ch/labs/sens/">SENS Lab</a> supervised by Prof. Haitham Hassanieh.
+      My expected graduation is Fall 2027.
+    </p>
+    <p>
+      I am broadly interested in practical perception systems that sense and reconstruct real-world environments, with a focus on wireless sensing, mmWave radar, and learning-based 3D imaging. I have also worked on hardware security, investigating electrical-level fault injection in FPGA-CPU systems.
+    </p>
+    <p>
+      My research focuses on enabling high-resolution wireless 3D sensing and imaging. I lead an
+      end-to-end project on multi-radar fusion for autonomous mmWave imaging, building learning-based
+      3D reconstruction pipelines that combine mmWave radar and vision. I am also driving a project on
+      joint communication and sensing (JCAS) using RFSoC-based 6G prototypes.
+    </p>
+    <p>
+      I hold a Bachelor of Science in Computer Engineering with a Minor in Mathematics,
+      <em>Highest Honors</em> (GPA 3.957/4.0), from
+      <a href="https://www.aucegypt.edu">The American University in Cairo (AUC)</a>, June 2022.
+      My undergraduate thesis proposed a multi-knowledge distillation framework with online learning,
+      supervised by Prof. Cherif Salama and Dr. Hesham Eraqi.
+    </p>
+    <p>
+      In summer 2021, I was a research intern at the
+      <a href="https://parsa.epfl.ch">PARSA Lab, EPFL</a>, where I investigated hardware
+      security issues in FPGA-CPU MPSoCs modeling multi-tenant FPGA systems.
+    </p>
+    <p>
+      I am a recipient of the 2022 <strong>École Doctorale d'Informatique et de Communication
+      Fellowship</strong> from EPFL's IC School, awarded for exceptional academic record, and the
+      2017 <strong>Khalaf Al Habtoor Scholarship</strong> covering full expenses for my bachelor's degree.
+    </p>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Publications</h2>
+    <table class="pub-table">
+      <tr><td>
+        <span class="pub-me">Hussein, S.</span>, et al.
+        <a href="bmvc399.pdf" target="_blank">3D Shape Reconstruction from Autonomous Driving Radars</a>.
+        <span class="pub-venue">British Machine Vision Conference (BMVC), 2025.</span>
+      </td></tr>
+      <tr><td>
+        Guan, J., Madani, S., Ahmed, W., <span class="pub-me">Hussein, S.</span>, Gupta, S., &amp; Hassanieh, H.
+        <a href="Exploiting_Virtual_Array_Diversity_for_Accurate_Radar_Detection.pdf" target="_blank">Exploiting Virtual Array Diversity for Accurate Radar Detection</a>.
+        <span class="pub-venue">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2023.</span>
+      </td></tr>
+      <tr><td>
+        Mahmoud, D. G., Dervishi, D., <span class="pub-me">Hussein, S.</span>, Lenders, V., &amp; Stojilović, M.
+        <a href="IEEE_Xplore_Full-Text_PDF.pdf" target="_blank">DFAulted: CPU Software Faults from FPGA Undervolting</a>.
+        <span class="pub-venue">IEEE Access, 2022.</span>
+      </td></tr>
+      <tr><td>
+        Mahmoud, D. G., <span class="pub-me">Hussein, S.</span>, Lenders, V., &amp; Stojilović, M.
+        <a href="FPGA-to-CPU_Undervolting_Attacks.pdf" target="_blank">FPGA-to-CPU Undervolting Attacks</a>.
+        <span class="pub-venue">Design, Automation and Test in Europe Conference (DATE), 2022.</span>
+      </td></tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Education</h2>
+    <ul class="clean">
+      <li>
+        <strong>PhD in Computer Science</strong>, IC School, EPFL, Lausanne, Switzerland
+        <span class="year">(2022 – expected 2027)</span><br>
+        <span style="font-size:14px;color:#555;">Thesis: Enabling High-Resolution Wireless 3D Sensing &amp; Imaging · Supervisor: Prof. Haitham Hassanieh</span>
+      </li>
+      <li>
+        <strong>BSc in Computer Engineering, Minor in Mathematics</strong> — <em>Highest Honors</em>,
+        The American University in Cairo (AUC)
+        <span class="year">(2018 – 2022)</span><br>
+        <span style="font-size:14px;color:#555;">GPA 3.957/4.0 · Thesis: A Multi-Knowledge Distillation Framework with Online Learning</span>
+      </li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Work Experience</h2>
+    <ul class="clean">
+      <li>
+        <strong>PhD Researcher</strong>, SENS Lab, EPFL — Lausanne, Switzerland
+        <span class="year">(Sep 2022 – present)</span>
+        <ul class="work">
+          <li>Leading end-to-end project on multi-radar fusion for autonomous mmWave imaging</li>
+          <li>Architecting and deploying radar sensing platforms for autonomous data collection</li>
+          <li>Building learning-based 3D reconstruction pipelines combining mmWave radar and vision</li>
+          <li>Driving a parallel project on joint communication and sensing (JCAS) on RFSoC-based 6G prototypes</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Research Intern</strong>, PARSA Lab, EPFL — Lausanne, Switzerland
+        <span class="year">(Jun – Sep 2021)</span>
+        <ul class="work">
+          <li>Led hardware security research on FPGA-CPU MPSoCs using Verilog, VHDL, and C</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Student Technology Assistant</strong>, Center of Learning and Teaching, AUC
+        <span class="year">(Sep 2019 – Jun 2022)</span>
+        <ul class="work">
+          <li>Managed and supported the digital transformation of education platforms</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Teaching</h2>
+    <div class="teaching-item">
+      <strong>EPFL COM-405 — Mobile Networking</strong><br>
+      <span class="detail">Leading exercise sessions, creating labs</span>
+    </div>
+    <div class="teaching-item">
+      <strong>EPFL COM-304 — Communications Project</strong><br>
+      <span class="detail">Syllabus &amp; content planning, project supervision</span>
+    </div>
+    <div class="teaching-item">
+      <strong>EPFL CS-486 — Interaction Design</strong><br>
+      <span class="detail">Project supervision &amp; design thinking feedback</span>
+    </div>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Professional Service</h2>
+    <div class="service-section">
+      <strong>Primary Reviewer</strong>
+      <span>The 36th British Machine Vision Conference (BMVC '25)</span>
+    </div>
+    <div class="service-section">
+      <strong>Secondary Reviewer</strong>
+      <span>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR '26)</span>
+      <span>ACM International Conference on Mobile Systems, Applications, and Services (MobiSys '24, '25)</span>
+      <span>ACM MobiCom '24, '25</span>
+      <span>ACM SIGCOMM '24, '25</span>
+      <span>ACM HotNets '24, '25</span>
+    </div>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Honors &amp; Awards</h2>
+    <div class="award-item">
+      <span class="award-year">2022</span>
+      <span>École Doctorale d'Informatique et de Communication Fellowship, IC School, EPFL — awarded for exceptional academic record among new PhD students</span>
+    </div>
+    <div class="award-item">
+      <span class="award-year">2021</span>
+      <span>Summer Research Fellowship, PARSA Lab, EPFL</span>
+    </div>
+    <div class="award-item">
+      <span class="award-year">2017</span>
+      <span>Khalaf Al Habtoor Scholarship — covering full tuition for a bachelor's degree in computer engineering</span>
+    </div>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills-row"><strong>Programming:</strong> C, C++, Python, Matlab, CUDA, MIPS, RISC-V</div>
+    <div class="skills-row"><strong>Machine Learning:</strong> PyTorch, PyTorch3D, Keras, TensorFlow</div>
+    <div class="skills-row"><strong>Radar &amp; Signal Processing:</strong> mmWave radar, FMCW, virtual arrays, sensor fusion</div>
+    <div class="skills-row"><strong>3D Vision &amp; Data:</strong> Point cloud processing, Open3D, 3D reconstruction, ROS, computer vision</div>
+    <div class="skills-row"><strong>Hardware Design:</strong> Verilog, VHDL, Vivado, PCB design (EagleCAD, KiCAD)</div>
+    <div class="skills-row"><strong>Embedded Systems:</strong> RFSoCs, MPSoCs, RTOS programming</div>
+    <div class="skills-row"><strong>Data Analysis:</strong> NumPy, cuPy, pandas</div>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Personal Interests</h2>
+    <p style="font-size:15px; line-height:1.7; color:#444;">
+      Outside of research, I enjoy crocheting, aerial yoga, hiking, traveling to new places, and hosting dinner parties. I also love reading — mostly science fiction — and consuming obscure amounts of fruity tea. Most of all I enjoy my trips to Egypt & the Red Sea. 
+    </p>
+  </section>
+
+  <hr>
+
+  <div class="footer-links">
+    <a href="mailto:samah.husseinyoussef@epfl.ch">Email</a>
+    <a href="https://scholar.google.com" target="_blank">Google Scholar</a>
+    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+  </div>
+
+</div>
+</body>
+</html>
